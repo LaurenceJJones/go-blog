@@ -1,9 +1,14 @@
 ---
 title: "Nginx Waf Overview"
 date: 2021-12-08T21:50:07Z
-draft: true
+draft: false
 tags: ["nginx", "waf"]
-description: "Desc Text."
+cover:
+    image: "nginx-waf-overview-header.jpg"
+    alt: "firewall"
+    caption: "Attribution to [Michael Dziedzic](https://unsplash.com/@lazycreekimages)"
+    relative: false
+    hidden: false
 categories: ["Security"]
 ---
 ## What is NGINX?
