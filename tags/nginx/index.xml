@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>DevSecOps</title>
-    <link>https://blog.laurencejones.dev/</link>
-    <description>Recent content on DevSecOps</description>
+    <title>nginx on DevSecOps</title>
+    <link>https://blog.laurencejones.dev/tags/nginx/</link>
+    <description>Recent content in nginx on DevSecOps</description>
     <image>
       <url>https://blog.laurencejones.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.laurencejones.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Dec 2021 21:50:07 +0000</lastBuildDate><atom:link href="https://blog.laurencejones.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Dec 2021 21:50:07 +0000</lastBuildDate><atom:link href="https://blog.laurencejones.dev/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nginx Waf Overview</title>
       <link>https://blog.laurencejones.dev/posts/nginx-waf-overview/</link>
@@ -20,7 +20,6 @@
       <description>What is NGINX? NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers. source
 What is a WAF?</description>
     </item>
-    
     
   </channel>
 </rss>

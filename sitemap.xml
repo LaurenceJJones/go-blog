@@ -3,11 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.laurencejones.dev/categories/</loc>
+    <lastmod>2021-12-08T21:50:07+00:00</lastmod>
   </url><url>
     <loc>https://blog.laurencejones.dev/</loc>
+    <lastmod>2021-12-08T21:50:07+00:00</lastmod>
   </url><url>
-    <loc>https://blog.laurencejones.dev/search/</loc>
+    <loc>https://blog.laurencejones.dev/tags/nginx/</loc>
+    <lastmod>2021-12-08T21:50:07+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.laurencejones.dev/posts/nginx-waf-overview/</loc>
+    <lastmod>2021-12-08T21:50:07+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.laurencejones.dev/posts/</loc>
+    <lastmod>2021-12-08T21:50:07+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.laurencejones.dev/categories/security/</loc>
+    <lastmod>2021-12-08T21:50:07+00:00</lastmod>
   </url><url>
     <loc>https://blog.laurencejones.dev/tags/</loc>
+    <lastmod>2021-12-08T21:50:07+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.laurencejones.dev/tags/waf/</loc>
+    <lastmod>2021-12-08T21:50:07+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.laurencejones.dev/search/</loc>
   </url>
 </urlset>
