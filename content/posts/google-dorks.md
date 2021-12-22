@@ -32,7 +32,7 @@ There are many dork operators here is a list and what effect they have on the re
 | link      | Searches for external links to pages. | `link:"keyword"` |
 | numrange      | Used to locate specific numbers. | `numrange:321-325` |
 | before/after      | Used to search within a particular date range. | `filetype:pdf & (before:2000-01-01 after:2001-01-01)` |
-| allinanchor (and also inanchor)      | This shows sites which have the keyterms in links pointing to them, in order of the most links. | `inanchor:rat` |
+| allinanchor (and also inanchor)      | This shows sites which have the keyterms in links pointing to them, in order of the most links. | `inanchor:cat` |
 | allinpostauthor (and also inpostauthor)      | Exclusive to blog search, this one picks out blog posts that are written by specific individuals. | `allinpostauthor:"keyword"` |
 | related      | List web pages that are “similar” to a specified page. | `related:blog.laurencejones.dev` |
 | cache      | Shows the version of the web page that Google has in its cache. | `cache:blog.laurencejones.dev` |
