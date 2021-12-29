@@ -19,7 +19,7 @@ What is a WAF?">
 <link rel=mask-icon href=https://blog.laurencejones.dev/safari-pinned-tab.svg>
 <meta name=theme-color content="#ffffff">
 <meta name=msapplication-TileColor content="#603cba">
-<meta name=generator content="Hugo 0.91.0">
+<meta name=generator content="Hugo 0.91.2">
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
@@ -85,7 +85,27 @@ Nginx Waf Overview
 </header>
 <figure class=entry-cover><img loading=lazy src=https://blog.laurencejones.dev/nginx-waf-overview-header.jpg alt=firewall>
 <p>Attribution to <a href=https://unsplash.com/@lazycreekimages>Michael Dziedzic</a></p>
-</figure>
+</figure><div class=toc>
+<details>
+<summary accesskey=c title="(Alt + C)">
+<span class=details>Table of Contents</span>
+</summary>
+<div class=inner><ul>
+<li>
+<a href=#what-is-nginx aria-label="What is NGINX?">What is NGINX?</a></li>
+<li>
+<a href=#what-is-a-waf aria-label="What is a WAF?">What is a WAF?</a></li>
+<li>
+<a href=#nginx-app-protect aria-label="Nginx App Protect">Nginx App Protect</a></li>
+<li>
+<a href=#nginx-mod-security-30 aria-label="Nginx Mod Security 3.0">Nginx Mod Security 3.0</a></li>
+<li>
+<a href=#owasp-crs aria-label="OWASP CRS">OWASP CRS</a>
+</li>
+</ul>
+</div>
+</details>
+</div>
 <div class=post-content><hr>
 <h2 id=what-is-nginx>What is NGINX?<a hidden class=anchor aria-hidden=true href=#what-is-nginx>#</a></h2>
 <p>NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers. source</p>
