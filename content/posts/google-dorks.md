@@ -1,8 +1,8 @@
 ---
 title: "Google Dorks"
-date: 2021-12-18T09:39:47Z
-draft: true
-tags: ["google", "osint", "cheatsheet"]
+date: 2022-01-08T00:00:00Z
+draft: false
+tags: ["google", "cheatsheet", "recon"]
 author: "Loz"
 cover:
     image: "google-dork.jpg"
@@ -10,7 +10,7 @@ cover:
     caption: "Attribution to [Mitchell Luo](https://unsplash.com/@mitchel3uo)"
     relative: false
     hidden: false
-categories: ["security"]
+categories: ["osint"]
 ---
 
 ---
@@ -21,25 +21,51 @@ There are many dork operators here is a list and what effect they have on the re
 
 | Dork          | Description                                        | Example                              |
 | :-------------- |:---------------------------------------------------| :------------------------------------|
-| allintext      | Searches for all keywords given. | `allintext:"keyword"` |
-| intext      | Searches for the keywords all at once or one at a time. | `intext:"keyword"` |
-| inurl      | Searches for a URL matching one of the keywords. | `inurl:"keyword"` |
-| allinurl      | Searches for a URL matching all keywords. | `allinurl:"keyword"` |
-| intitle      | Searches for keywords in title all or one. | `intitle:"keyword"` |
-| allintitle      | Searches for all keywords in title. | `allintitle:"keyword"` |
 | site      | Filter results down to specfic site | `Site:laurencejones.dev Or Site:blog.laurencejones.dev` |
 | filetype      | Searches for a particular filetype. | `filetype:"pdf"` |
+| cache      | Shows the version of the web page that Google has in its cache. | `cache:blog.laurencejones.dev` |
+| intext      | Searches for the keywords all at once or one at a time. | `intext:"keyword"` |
+| inurl      | Searches for a URL matching one of the keywords. | `inurl:"keyword"` |
+| intitle      | Searches for keywords in title all or one. | `intitle:"keyword"` |
+| allintext      | Searches for all keywords given. | `allintext:"keyword"` |
+| allinurl      | Searches for a URL matching all keywords. | `allinurl:"keyword"` |
+| allintitle      | Searches for all keywords in title. | `allintitle:"keyword"` |
 | link      | Searches for external links to pages. | `link:"keyword"` |
 | numrange      | Used to locate specific numbers. | `numrange:300-325` |
 | before/after      | Used to search within a particular date range. | `filetype:pdf & (before:2020-01-01 after:2021-01-01)` |
-| allinanchor (and also inanchor)      | This shows sites which have the keyterms in links pointing to them, in order of the most links. | `inanchor:cat` |
+| allinanchor (and also inanchor)      | This shows sites which have the keyterms in links pointing to them, in order of the most links. | `inanchor:dog` |
 | allinpostauthor (and also inpostauthor)      | Exclusive to blog search, this one picks out blog posts that are written by specific individuals. | `allinpostauthor:"keyword"` |
 | related      | List web pages that are “similar” to a specified page. | `related:blog.laurencejones.dev` |
-| cache      | Shows the version of the web page that Google has in its cache. | `cache:blog.laurencejones.dev` |
 
-## Typical searches
+Additional search operators:
+
+OR operator
 ```js
-site:<target> (ext:pdf | ext:txt | ext:log | ext:doc | ext:docx | ext:pptx | ext:xlsx |  ext:xlsm | ext:xlsb | ext:xltx | ext:xltm | ext:xlt |ext:xls | ext:xml | ext:xlam | ext:xla | ext:xlw | ext:xlr | ext:docm | ext:dot | ext:dotm | ext:dotx | ext:htm | ext:mht | ext:mhtml | ext:odt | ext:rtf | ext:wps | ext:xps)
+intitle:admin | intitle:finance
 ```
-## GHDB
-The [GHDB](https://www.exploit-db.com/google-hacking-database "GHDB") is a community driven website of search queries they can give you ideas or give you the exact query you are looking for.
+
+AND operator
+```js
+intitle:admin & inurl:ftp
+```
+
+## Example searches
+### Website
+Interesting website files:
+```js
+site:<target> (ext:pdf | ext:txt | ext:log | ext:doc | ext:docx | ext:pptx | ext:xlsx |  ext:xlsm | ext:xlsb | ext:xltx | ext:xltm | ext:xlt |ext:xls | ext:xml | ext:xlam | ext:xla | ext:xlw | ext:xlr | ext:docm | ext:dot | ext:dotm | ext:dotx | ext:htm | ext:mht | ext:mhtml | ext:odt | ext:rtf | ext:wps | ext:xps | ext:ini)
+```
+Index of:
+```js
+site:<target> intitle:"index of /*" //Optional > (inurl:ftp | inurl:login | inurl:smb | inurl: admin)
+```
+### Username
+```js
+intitle:<username> | inurl:<username> | intext:<username>
+```
+
+---
+## Extras
+- List of dorking tools: [Github](https://github.com/enaqx/awesome-pentest#dorking-tools)
+- Google Hacking Database: [GHDB](https://www.exploit-db.com/google-hacking-database "GHDB")
+- Cheatsheet: [Gist](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)

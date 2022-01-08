@@ -21,7 +21,7 @@ vendor/*/
 *.bench
 *.debug
 coverage*.out
-
+public/
 dock.sh
 
 GoBuilds
