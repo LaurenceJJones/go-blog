@@ -6,22 +6,40 @@
     <description>Recent content in Tags on DevSecOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Dec 2021 21:50:07 +0000</lastBuildDate><atom:link href="https://blog.laurencejones.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.laurencejones.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cheatsheet</title>
+      <link>https://blog.laurencejones.dev/tags/cheatsheet/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.laurencejones.dev/tags/cheatsheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google</title>
+      <link>https://blog.laurencejones.dev/tags/google/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.laurencejones.dev/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recon</title>
+      <link>https://blog.laurencejones.dev/tags/recon/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.laurencejones.dev/tags/recon/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>nginx</title>
       <link>https://blog.laurencejones.dev/tags/nginx/</link>
       <pubDate>Wed, 08 Dec 2021 21:50:07 +0000</pubDate>
       
       <guid>https://blog.laurencejones.dev/tags/nginx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>waf</title>
-      <link>https://blog.laurencejones.dev/tags/waf/</link>
-      <pubDate>Wed, 08 Dec 2021 21:50:07 +0000</pubDate>
-      
-      <guid>https://blog.laurencejones.dev/tags/waf/</guid>
       <description></description>
     </item>
     
