@@ -60,4 +60,4 @@ I have been using Crowdsec for about 7 months on my primary VPS server. Ever sin
 
 I use multiple bouncers (IPS component), however, [cloudflare bouncer](https://github.com/crowdsecurity/cs-cloudflare-bouncer) took the brunt of the attacks that happened following issuing the certficates. 
 
-Since these IP's were within the community blocklist, they were already banned before even getting to my server. All this for free! Please checkout out [Crowdsec](https://www.crowdsec.net/) and if you wish to join the community I suggest joining the [Discord Server](https://discord.gg/crowdsec).
+Since these IP's were within the community blocklist, they were already banned before even getting to my server. All this for free! Please checkout out [Crowdsec](https://www.crowdsec.net/) and if you wish to join the community join the [Discord Server](https://discord.gg/crowdsec).
