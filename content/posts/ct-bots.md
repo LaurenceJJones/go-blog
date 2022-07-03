@@ -1,7 +1,7 @@
 ---
 title: "Certificate Transparency Bots"
 date: 2022-06-29T21:27:36+01:00
-draft: true
+draft: false
 tags: ["bots", "ips", "ids"]
 author: "Loz"
 cover:
@@ -19,9 +19,9 @@ categories: ["crowdsec"]
 
 I was setting up a new subdomain on my VPS, I thought I had everything correctly configured but the new subdomain was being routed to another application. After an hour of troubleshooting I made the decisions to reconfigure the whole server using [nginxconfig.io](https://nginxconfig.io/) as a baseline. Within 15 minutes of entering all the information, downloading and extracting to my server I had everything ready to go.
 
-## Next?
+## The attack
 
-I requested certificates from [Lets Encrypt](https://letsencrypt.org/) and had malious requests sent to my services that were mitigated by Crowdsec.
+I requested certificates from [Lets Encrypt](https://letsencrypt.org/) and had malicious requests sent to my services that were mitigated by Crowdsec.
 
 ## Breakdown of what happened 🔥
 #### Certificate Transparency 📝
@@ -30,7 +30,7 @@ Publicly trusted CA (Certificate Authorities) have adopted a internet security s
 You can go to [crt.sh](https://crt.sh/) type in your domain to get a list of certificates that have been issued. Depending on how you generate certificates for your subdomains you may be leaking information to an attacker. For example if you issue per subdomain you will have a entry per domain instead of *.domain.tld.
 
 #### The bad bots 🤖
-Bots must be monitoring newly issued certificates for the ability to automate testing to new domains. Like I said earlier I set up a complete new domain which was not indexed by any search engines, so how could bots find this within seconds of issuance? These bots had a set pattern of attack trying these resources:
+Bots must be monitoring newly issued certificates for the ability to automate attacks to new domains. Like I said earlier I set up a complete new domain which was not indexed by any search engines, so how could bots find this within seconds of issuance? These bots had a set pattern of attack trying these resources:
 ```text
 /
 /config.json
@@ -58,4 +58,6 @@ It leverages local behavior analysis to create a global IP reputation network. [
 
 I have been using Crowdsec for about 7 months on my primary VPS server. Ever since installing the IDS and IPS components I have felt more consious about what attacks are happening and more importantly how it is preventing these attacks.
 
-Cloudflare took the brunt of most the attacks, I use a multi layer bouncer setup because
+I use multiple bouncers (IPS component), however, [cloudflare bouncer](https://github.com/crowdsecurity/cs-cloudflare-bouncer) took the brunt of the attacks that happened following issuing the certficates. 
+
+Since these IP's were within the community blocklist, they were already banned before even getting to my server. All this for free! Please checkout out [Crowdsec](https://www.crowdsec.net/) and if you wish to join the community I suggest joining the [Discord Server](https://discord.gg/crowdsec).
