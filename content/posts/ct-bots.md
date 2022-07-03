@@ -30,7 +30,7 @@ Publicly trusted CA (Certificate Authorities) have adopted a internet security s
 You can go to [crt.sh](https://crt.sh/) type in your domain to get a list of certificates that have been issued. Depending on how you generate certificates for your subdomains you may be leaking information to an attacker. For example if you issue per subdomain you will have a entry per domain instead of *.domain.tld.
 
 #### The bad bots 🤖
-Bots must be monitoring newly issued certificates for the ability to automate attacks to new domains. Like I said earlier I set up a complete new domain which was not indexed by any search engines, so how could bots find this within seconds of issuance? These bots had a set pattern of attack trying these resources:
+Bots must be monitoring newly issued certificates for the ability to automate attacks to new domains. Like I said earlier I set up a complete new subdomain which was not indexed by any search engines, so how could bots find this within seconds of issuance? These bots had a set pattern of attack trying these resources:
 ```text
 /
 /config.json
