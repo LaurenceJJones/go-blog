@@ -6,7 +6,16 @@
     <description>Recent content on DevSecOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.laurencejones.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jun 2022 21:27:36 +0100</lastBuildDate><atom:link href="https://blog.laurencejones.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Certificate Transparency Bots</title>
+      <link>https://blog.laurencejones.dev/posts/ct-bots/</link>
+      <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
+      
+      <guid>https://blog.laurencejones.dev/posts/ct-bots/</guid>
+      <description>What happened? Backstory I was setting up a new subdomain on my VPS, I thought I had everything correctly configured but the new subdomain was being routed to another application. After an hour of troubleshooting I made the decisions to reconfigure the whole server using nginxconfig.io as a baseline. Within 15 minutes of entering all the information, downloading and extracting to my server I had everything ready to go.</description>
+    </item>
+    
     <item>
       <title>Google Dorks</title>
       <link>https://blog.laurencejones.dev/posts/google-dorks/</link>
