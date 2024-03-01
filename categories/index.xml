@@ -6,8 +6,15 @@
     <description>Recent content in Categories on DevSecOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jun 2022 21:27:36 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2024 20:40:50 +0000</lastBuildDate>
     <atom:link href="https://blog.laurencejones.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rate-Limiting</title>
+      <link>https://blog.laurencejones.dev/categories/rate-limiting/</link>
+      <pubDate>Fri, 01 Mar 2024 20:40:50 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/categories/rate-limiting/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Crowdsec</title>
       <link>https://blog.laurencejones.dev/categories/crowdsec/</link>

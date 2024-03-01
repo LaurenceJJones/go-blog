@@ -6,8 +6,15 @@
     <description>Recent content in Tags on DevSecOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jun 2022 21:27:36 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2024 20:40:50 +0000</lastBuildDate>
     <atom:link href="https://blog.laurencejones.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx</title>
+      <link>https://blog.laurencejones.dev/tags/nginx/</link>
+      <pubDate>Fri, 01 Mar 2024 20:40:50 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/nginx/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bots</title>
       <link>https://blog.laurencejones.dev/tags/bots/</link>
@@ -48,13 +55,6 @@
       <link>https://blog.laurencejones.dev/tags/recon/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.laurencejones.dev/tags/recon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nginx</title>
-      <link>https://blog.laurencejones.dev/tags/nginx/</link>
-      <pubDate>Wed, 08 Dec 2021 21:50:07 +0000</pubDate>
-      <guid>https://blog.laurencejones.dev/tags/nginx/</guid>
       <description></description>
     </item>
   </channel>
