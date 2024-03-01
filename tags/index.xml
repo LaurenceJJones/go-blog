@@ -6,69 +6,56 @@
     <description>Recent content in Tags on DevSecOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jun 2022 21:27:36 +0100</lastBuildDate><atom:link href="https://blog.laurencejones.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jun 2022 21:27:36 +0100</lastBuildDate>
+    <atom:link href="https://blog.laurencejones.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>bots</title>
+      <title>Bots</title>
       <link>https://blog.laurencejones.dev/tags/bots/</link>
       <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
-      
       <guid>https://blog.laurencejones.dev/tags/bots/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ids</title>
+      <title>Ids</title>
       <link>https://blog.laurencejones.dev/tags/ids/</link>
       <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
-      
       <guid>https://blog.laurencejones.dev/tags/ids/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ips</title>
+      <title>Ips</title>
       <link>https://blog.laurencejones.dev/tags/ips/</link>
       <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
-      
       <guid>https://blog.laurencejones.dev/tags/ips/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cheatsheet</title>
+      <title>Cheatsheet</title>
       <link>https://blog.laurencejones.dev/tags/cheatsheet/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.laurencejones.dev/tags/cheatsheet/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>google</title>
+      <title>Google</title>
       <link>https://blog.laurencejones.dev/tags/google/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.laurencejones.dev/tags/google/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>recon</title>
+      <title>Recon</title>
       <link>https://blog.laurencejones.dev/tags/recon/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.laurencejones.dev/tags/recon/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nginx</title>
+      <title>Nginx</title>
       <link>https://blog.laurencejones.dev/tags/nginx/</link>
       <pubDate>Wed, 08 Dec 2021 21:50:07 +0000</pubDate>
-      
       <guid>https://blog.laurencejones.dev/tags/nginx/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

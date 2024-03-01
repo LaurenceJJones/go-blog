@@ -6,35 +6,30 @@
     <description>Recent content in Posts on DevSecOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jun 2022 21:27:36 +0100</lastBuildDate><atom:link href="https://blog.laurencejones.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jun 2022 21:27:36 +0100</lastBuildDate>
+    <atom:link href="https://blog.laurencejones.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Certificate Transparency Bots</title>
       <link>https://blog.laurencejones.dev/posts/ct-bots/</link>
       <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
-      
       <guid>https://blog.laurencejones.dev/posts/ct-bots/</guid>
       <description>What happened? Backstory I was setting up a new subdomain on my VPS, I thought I had everything correctly configured but the new subdomain was being routed to another application. After an hour of troubleshooting I made the decisions to reconfigure the whole server using nginxconfig.io as a baseline. Within 15 minutes of entering all the information, downloading and extracting to my server I had everything ready to go.</description>
     </item>
-    
     <item>
       <title>Google Dorks</title>
       <link>https://blog.laurencejones.dev/posts/google-dorks/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.laurencejones.dev/posts/google-dorks/</guid>
       <description>What is a dork? A dork is a filter that can be applied to searches to narrow down the results to what you are looking for. This is often used to find potential documents / hidden pages that were accidentally exposed to the internet. This can be used in recon stage since it does not interact with a target / organisation directly.
 There are many dork operators here is a list and what effect they have on the results.</description>
     </item>
-    
     <item>
       <title>Nginx Waf Overview</title>
       <link>https://blog.laurencejones.dev/posts/nginx-waf-overview/</link>
       <pubDate>Wed, 08 Dec 2021 21:50:07 +0000</pubDate>
-      
       <guid>https://blog.laurencejones.dev/posts/nginx-waf-overview/</guid>
       <description>What is NGINX? NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers. source
 What is a WAF?</description>
     </item>
-    
   </channel>
 </rss>
