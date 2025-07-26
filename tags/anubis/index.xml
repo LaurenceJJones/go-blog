@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Anubis on DevSecOps</title>
+    <link>https://blog.laurencejones.dev/tags/anubis/</link>
+    <description>Recent content in Anubis on DevSecOps</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Jul 2025 12:39:54 +0100</lastBuildDate>
+    <atom:link href="https://blog.laurencejones.dev/tags/anubis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop Bots on Coolify: Deploy Anubis for WordPress and Beyond</title>
+      <link>https://blog.laurencejones.dev/posts/anubis-coolify/</link>
+      <pubDate>Sat, 26 Jul 2025 12:39:54 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/anubis-coolify/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Bots are an increasing threat to websites, whether through fake sign ups, brute force login attempts, content scraping, or resource abuse. If you are running applications on &lt;a href=&#34;https://coolify.io&#34;&gt;Coolify&lt;/a&gt;, an open source platform as a service alternative, you need a simple and efficient way to protect them without unnecessary complexity.&lt;/p&gt;
+&lt;p&gt;This is where &lt;strong&gt;Anubis&lt;/strong&gt; comes in. In this guide, you will learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What Anubis is and why it is useful&lt;/li&gt;
+&lt;li&gt;How it helps stop bots before they reach your application&lt;/li&gt;
+&lt;li&gt;A real world example of deploying Anubis with WordPress on Coolify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-is-anubis-and-how-does-it-stop-bots&#34;&gt;What is Anubis and How Does It Stop Bots?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://anubis.techaro.lol&#34;&gt;Anubis&lt;/a&gt; is an open source challenge proxy that protects your web applications from automated bots and abusive traffic. It works as a reverse proxy that requires clients to solve a computational proof of work challenge before granting access. This mechanism dramatically reduces malicious traffic without impacting legitimate users.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

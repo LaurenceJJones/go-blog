@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on DevSecOps</title>
+    <link>https://blog.laurencejones.dev/tags/</link>
+    <description>Recent content in Tags on DevSecOps</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Jul 2025 12:39:54 +0100</lastBuildDate>
+    <atom:link href="https://blog.laurencejones.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anubis</title>
+      <link>https://blog.laurencejones.dev/tags/anubis/</link>
+      <pubDate>Sat, 26 Jul 2025 12:39:54 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/anubis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bot-Protection</title>
+      <link>https://blog.laurencejones.dev/tags/bot-protection/</link>
+      <pubDate>Sat, 26 Jul 2025 12:39:54 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/bot-protection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coolify</title>
+      <link>https://blog.laurencejones.dev/tags/coolify/</link>
+      <pubDate>Sat, 26 Jul 2025 12:39:54 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/coolify/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress-Security</title>
+      <link>https://blog.laurencejones.dev/tags/wordpress-security/</link>
+      <pubDate>Sat, 26 Jul 2025 12:39:54 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/wordpress-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nginx</title>
+      <link>https://blog.laurencejones.dev/tags/nginx/</link>
+      <pubDate>Fri, 01 Mar 2024 20:40:50 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bots</title>
+      <link>https://blog.laurencejones.dev/tags/bots/</link>
+      <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/bots/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ids</title>
+      <link>https://blog.laurencejones.dev/tags/ids/</link>
+      <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/ids/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ips</title>
+      <link>https://blog.laurencejones.dev/tags/ips/</link>
+      <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/ips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cheatsheet</title>
+      <link>https://blog.laurencejones.dev/tags/cheatsheet/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/cheatsheet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://blog.laurencejones.dev/tags/google/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recon</title>
+      <link>https://blog.laurencejones.dev/tags/recon/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/tags/recon/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

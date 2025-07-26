@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ids on DevSecOps</title>
+    <link>https://blog.laurencejones.dev/tags/ids/</link>
+    <description>Recent content in Ids on DevSecOps</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Jun 2022 21:27:36 +0100</lastBuildDate>
+    <atom:link href="https://blog.laurencejones.dev/tags/ids/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Certificate Transparency Bots</title>
+      <link>https://blog.laurencejones.dev/posts/ct-bots/</link>
+      <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/ct-bots/</guid>
+      <description>&lt;hr&gt;
+&lt;h1 id=&#34;what-happened&#34;&gt;What happened?&lt;/h1&gt;
+&lt;h2 id=&#34;backstory&#34;&gt;Backstory&lt;/h2&gt;
+&lt;p&gt;I was setting up a new subdomain on my VPS, I thought I had everything correctly configured but the new subdomain was being routed to another application. After an hour of troubleshooting I made the decisions to reconfigure the whole server using &lt;a href=&#34;https://nginxconfig.io/&#34;&gt;nginxconfig.io&lt;/a&gt; as a baseline. Within 15 minutes of entering all the information, downloading and extracting to my server I had everything ready to go.&lt;/p&gt;
+&lt;h2 id=&#34;the-attack&#34;&gt;The attack&lt;/h2&gt;
+&lt;p&gt;I requested certificates from &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Lets Encrypt&lt;/a&gt; and had malicious requests sent to my services that were mitigated by Crowdsec.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

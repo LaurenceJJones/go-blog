@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on DevSecOps</title>
+    <link>https://blog.laurencejones.dev/tags/nginx/</link>
+    <description>Recent content in Nginx on DevSecOps</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Mar 2024 20:40:50 +0000</lastBuildDate>
+    <atom:link href="https://blog.laurencejones.dev/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx Rate Limit</title>
+      <link>https://blog.laurencejones.dev/posts/nginx-rate-limit/</link>
+      <pubDate>Fri, 01 Mar 2024 20:40:50 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/nginx-rate-limit/</guid>
+      <description>&lt;h1 id=&#34;nginx-rate-limit&#34;&gt;Nginx Rate Limit&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Nginx is a powerful web server that can be used to serve static content, load balance, and act as a reverse proxy. It is also capable of rate limiting requests to prevent abuse and protect your server from being overwhelmed.&lt;/p&gt;
+&lt;p&gt;I seen various guides on how to set up rate limiting in Nginx, but I wanted to write my own since I had a specific use case in mind and I couldn&amp;rsquo;t find an example anywhere.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx Waf Overview</title>
+      <link>https://blog.laurencejones.dev/posts/nginx-waf-overview/</link>
+      <pubDate>Wed, 08 Dec 2021 21:50:07 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/nginx-waf-overview/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;what-is-nginx&#34;&gt;What is NGINX?&lt;/h2&gt;
+&lt;p&gt;NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers. source&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-waf&#34;&gt;What is a WAF?&lt;/h2&gt;
+&lt;p&gt;A WAF or web application firewall helps protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. It typically protects web applications from attacks such as cross-site forgery, cross-site-scripting (XSS), file inclusion, and SQL injection, among others. A WAF is a protocol layer 7 defense (in the OSI model), and is not designed to defend against all types of attacks. This method of attack mitigation is usually part of a suite of tools which together create a holistic defense against a range of attack vectors. source
+We now have a general understanding of what Nginx is and what a WAF can do here are the two main products that can be used:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

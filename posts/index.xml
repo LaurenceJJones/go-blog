@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on DevSecOps</title>
+    <link>https://blog.laurencejones.dev/posts/</link>
+    <description>Recent content in Posts on DevSecOps</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Jul 2025 12:39:54 +0100</lastBuildDate>
+    <atom:link href="https://blog.laurencejones.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop Bots on Coolify: Deploy Anubis for WordPress and Beyond</title>
+      <link>https://blog.laurencejones.dev/posts/anubis-coolify/</link>
+      <pubDate>Sat, 26 Jul 2025 12:39:54 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/anubis-coolify/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Bots are an increasing threat to websites, whether through fake sign ups, brute force login attempts, content scraping, or resource abuse. If you are running applications on &lt;a href=&#34;https://coolify.io&#34;&gt;Coolify&lt;/a&gt;, an open source platform as a service alternative, you need a simple and efficient way to protect them without unnecessary complexity.&lt;/p&gt;
+&lt;p&gt;This is where &lt;strong&gt;Anubis&lt;/strong&gt; comes in. In this guide, you will learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What Anubis is and why it is useful&lt;/li&gt;
+&lt;li&gt;How it helps stop bots before they reach your application&lt;/li&gt;
+&lt;li&gt;A real world example of deploying Anubis with WordPress on Coolify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-is-anubis-and-how-does-it-stop-bots&#34;&gt;What is Anubis and How Does It Stop Bots?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://anubis.techaro.lol&#34;&gt;Anubis&lt;/a&gt; is an open source challenge proxy that protects your web applications from automated bots and abusive traffic. It works as a reverse proxy that requires clients to solve a computational proof of work challenge before granting access. This mechanism dramatically reduces malicious traffic without impacting legitimate users.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx Rate Limit</title>
+      <link>https://blog.laurencejones.dev/posts/nginx-rate-limit/</link>
+      <pubDate>Fri, 01 Mar 2024 20:40:50 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/nginx-rate-limit/</guid>
+      <description>&lt;h1 id=&#34;nginx-rate-limit&#34;&gt;Nginx Rate Limit&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Nginx is a powerful web server that can be used to serve static content, load balance, and act as a reverse proxy. It is also capable of rate limiting requests to prevent abuse and protect your server from being overwhelmed.&lt;/p&gt;
+&lt;p&gt;I seen various guides on how to set up rate limiting in Nginx, but I wanted to write my own since I had a specific use case in mind and I couldn&amp;rsquo;t find an example anywhere.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Certificate Transparency Bots</title>
+      <link>https://blog.laurencejones.dev/posts/ct-bots/</link>
+      <pubDate>Wed, 29 Jun 2022 21:27:36 +0100</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/ct-bots/</guid>
+      <description>&lt;hr&gt;
+&lt;h1 id=&#34;what-happened&#34;&gt;What happened?&lt;/h1&gt;
+&lt;h2 id=&#34;backstory&#34;&gt;Backstory&lt;/h2&gt;
+&lt;p&gt;I was setting up a new subdomain on my VPS, I thought I had everything correctly configured but the new subdomain was being routed to another application. After an hour of troubleshooting I made the decisions to reconfigure the whole server using &lt;a href=&#34;https://nginxconfig.io/&#34;&gt;nginxconfig.io&lt;/a&gt; as a baseline. Within 15 minutes of entering all the information, downloading and extracting to my server I had everything ready to go.&lt;/p&gt;
+&lt;h2 id=&#34;the-attack&#34;&gt;The attack&lt;/h2&gt;
+&lt;p&gt;I requested certificates from &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Lets Encrypt&lt;/a&gt; and had malicious requests sent to my services that were mitigated by Crowdsec.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Dorks</title>
+      <link>https://blog.laurencejones.dev/posts/google-dorks/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/google-dorks/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;what-is-a-dork&#34;&gt;What is a dork?&lt;/h2&gt;
+&lt;p&gt;A dork is a filter that can be applied to searches to narrow down the results to what you are looking for. This is often used to find potential documents / hidden pages that were accidentally exposed to the internet. This can be used in recon stage since it does not interact with a target / organisation directly.&lt;/p&gt;
+&lt;p&gt;There are many dork operators here is a list and what effect they have on the results.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx Waf Overview</title>
+      <link>https://blog.laurencejones.dev/posts/nginx-waf-overview/</link>
+      <pubDate>Wed, 08 Dec 2021 21:50:07 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/nginx-waf-overview/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;what-is-nginx&#34;&gt;What is NGINX?&lt;/h2&gt;
+&lt;p&gt;NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers. source&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-waf&#34;&gt;What is a WAF?&lt;/h2&gt;
+&lt;p&gt;A WAF or web application firewall helps protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. It typically protects web applications from attacks such as cross-site forgery, cross-site-scripting (XSS), file inclusion, and SQL injection, among others. A WAF is a protocol layer 7 defense (in the OSI model), and is not designed to defend against all types of attacks. This method of attack mitigation is usually part of a suite of tools which together create a holistic defense against a range of attack vectors. source
+We now have a general understanding of what Nginx is and what a WAF can do here are the two main products that can be used:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

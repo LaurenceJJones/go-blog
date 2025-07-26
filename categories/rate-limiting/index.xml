@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rate-Limiting on DevSecOps</title>
+    <link>https://blog.laurencejones.dev/categories/rate-limiting/</link>
+    <description>Recent content in Rate-Limiting on DevSecOps</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Mar 2024 20:40:50 +0000</lastBuildDate>
+    <atom:link href="https://blog.laurencejones.dev/categories/rate-limiting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx Rate Limit</title>
+      <link>https://blog.laurencejones.dev/posts/nginx-rate-limit/</link>
+      <pubDate>Fri, 01 Mar 2024 20:40:50 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/nginx-rate-limit/</guid>
+      <description>&lt;h1 id=&#34;nginx-rate-limit&#34;&gt;Nginx Rate Limit&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Nginx is a powerful web server that can be used to serve static content, load balance, and act as a reverse proxy. It is also capable of rate limiting requests to prevent abuse and protect your server from being overwhelmed.&lt;/p&gt;
+&lt;p&gt;I seen various guides on how to set up rate limiting in Nginx, but I wanted to write my own since I had a specific use case in mind and I couldn&amp;rsquo;t find an example anywhere.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

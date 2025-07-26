@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cheatsheet on DevSecOps</title>
+    <link>https://blog.laurencejones.dev/tags/cheatsheet/</link>
+    <description>Recent content in Cheatsheet on DevSecOps</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.laurencejones.dev/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Dorks</title>
+      <link>https://blog.laurencejones.dev/posts/google-dorks/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://blog.laurencejones.dev/posts/google-dorks/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;what-is-a-dork&#34;&gt;What is a dork?&lt;/h2&gt;
+&lt;p&gt;A dork is a filter that can be applied to searches to narrow down the results to what you are looking for. This is often used to find potential documents / hidden pages that were accidentally exposed to the internet. This can be used in recon stage since it does not interact with a target / organisation directly.&lt;/p&gt;
+&lt;p&gt;There are many dork operators here is a list and what effect they have on the results.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
