@@ -163,6 +163,74 @@ When you visit your domain, you will first see the Anubis challenge, then your W
 
 ---
 
+## Multiple Deployments: Shared Private Key Configuration
+
+If you plan to deploy Anubis across **multiple projects**, you need to ensure that all Anubis instances can validate the same authentication cookies. Without this, users would need to solve proof of work challenges repeatedly or an infinite looping may occur.
+
+### Generate a Shared Private Key
+
+To enable cookie sharing across multiple Anubis deployments, generate a shared private key:
+
+```bash
+openssl rand -hex 32
+```
+
+This command generates a 64-character hexadecimal string that you'll use as your shared private key.
+
+### Updated Docker Compose Configuration
+
+Add the `ED25519_PRIVATE_KEY_HEX` environment variable to your Anubis service:
+
+```yaml
+services:
+  anubis:
+    image: ghcr.io/techarohq/anubis:latest
+    expose:
+      - "8923"
+    environment:
+      - SERVICE_FQDN_ANUWORDPRESS_8923
+      - BIND=:8923
+      - DIFFICULTY=5
+      - SERVE_ROBOTS_TXT=true
+      - TARGET=http://wordpress
+      - ED25519_PRIVATE_KEY_HEX=your-generated-hex-key-here
+```
+
+### Why This Matters
+
+- **Without shared key**: Each Anubis instance generates its own private key
+- **User experience**: Users get challenged repeatedly or experience infinite looping between instances  
+- **With shared key**: All instances can validate the same authentication cookies
+- **Result**: Users solve the challenge once and can access any project seamlessly
+
+### Coolify Configuration Best Practices
+
+In Coolify, it's recommended to configure `ED25519_PRIVATE_KEY_HEX` as a **shared environment variable** rather than setting it individually for each service:
+
+**Team Level Configuration:**
+- Set the environment variable at the **team level** if multiple teams need to share the same domain
+- All projects within the team will inherit this variable automatically
+
+**Project Level Configuration:**
+- Set the environment variable at the **project level** if you group multiple services by domain
+- All services within the project will use the same key
+
+**Why Domain Grouping Matters:**
+- All Anubis instances protecting the **same domain** must use the **same private key**
+- This ensures seamless user experience across all services under that domain
+- Example: `app1.yourdomain.com`, `app2.yourdomain.com`, and `api.yourdomain.com` should all share the same key
+
+### Security Considerations
+
+- **Store securely**: Treat this key like a password - store it in Coolify's environment secrets
+- **Rotate periodically**: Consider rotating the key periodically for enhanced security
+- **Keep private**: Never commit this key to version control or share it publicly
+- **Domain-specific keys**: Consider using different keys for different domains for additional security isolation
+
+This configuration is essential for production deployments with multiple replicas or load balancing.
+
+---
+
 ## Conclusion
 
 Anubis provides an easy yet powerful way to protect your Coolify deployed applications from bots and automated attacks. By adding it to your stack, you create an effective security layer without complex tools or application rewrites.
