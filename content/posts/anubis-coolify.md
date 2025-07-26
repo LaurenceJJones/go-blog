@@ -138,10 +138,12 @@ volumes:
 
 ## Accessing WordPress Through Anubis
 
-After deployment:
+Before deployment:
 
 - Configure your domain on the Anubis service, not WordPress  
-- Example: https://app.debian.local:8923  
+- Example: https://app.debian.local:8923
+
+![Anubis Example Coolify](/coolify-anubis-example.png)
 
 Traffic flow:  
 **Traefik → Anubis → WordPress**
