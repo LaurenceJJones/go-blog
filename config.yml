@@ -2,7 +2,9 @@ baseURL: 'https://blog.laurencejones.dev'
 languageCode: 'en'
 title: 'DevSecOps'
 theme: PaperMod
-paginate: 5
+
+pagination:
+  pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -28,7 +30,6 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
@@ -63,7 +64,10 @@ params:
       url: "https://twitter.com/iiAmLoz"
     - name: github
       url: "https://github.com/laurencejjones"
-      
+    - name: linkedin
+      url: "https://www.linkedin.com/in/laurence-jones-582132137/"
+    - name: youtube
+      url: "https://www.youtube.com/@iiamloz"
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
